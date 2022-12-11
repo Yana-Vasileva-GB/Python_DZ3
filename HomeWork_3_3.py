@@ -14,7 +14,7 @@ while number > 0:
     number_bin.append(number % 2)
     number = number // 2
 number_bin.reverse()
-print(number_bin)
+print(*number_bin, sep = '')
 
 
 
